@@ -1,1 +1,5 @@
 datasets/
+*.env
+*eda312/
+*.venv/
+*.python-version
