@@ -5,6 +5,7 @@ EDA phase of 2026/1 Artificial intelligence, Machine Learning & Statistics cours
 
 ## Preprocessed notebook files
 [EDA](notebooks/eda.ipynb)
+
 [t-SNE](notebooks/tsne.ipynb)
 
 ## Steps to reproduce (VSCode jupyter notebook extension)
@@ -34,8 +35,13 @@ EDA phase of 2026/1 Artificial intelligence, Machine Learning & Statistics cours
 ### Resources used during the assignment
 
 [Holz, A. (2025). Introduction to Exploratory Data Analysis](https://www.youtube.com/watch?v=h6UpsLI4Ejg)
+
 [Faraway, J. J. (2005). Exploratory Data Analysis. In Encyclopedia of Statistics in Behavioral Science. SAGE Publications.](https://www.stat.berkeley.edu/~brill/Stat153/EDASage.pdf)
+
 [Bartlein, P. (2021). GEOG 4/595: Geographic Data Analysis](https://pjbartlein.github.io/GeogDataAnalysis/lec01.html)
+
 [t-SNE introduction](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding)
+
 [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)
+
 [t-SNE scikit implementation](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)
