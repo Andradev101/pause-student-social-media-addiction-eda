@@ -34,22 +34,27 @@ Dataset features:
  3. Jupyer notebook extensions are installed; and
  4. You have an account on [Kaggle](https://www.kaggle.com/)
 ### Step-by-step:
-1. Clone this repository  
-2. Navigate to the root folder  
-3. Create an `.env` file in the root folder  
-4. Get your **API token and username** from Kaggle  
-5. Write the `.env` file like this:  
-    5.1.   Write the file like this:
-    ```
-    KAGGLE_KEY=[YOUR_API_TOKEN]
-    KAGGLE_USERNAME=[YOUR_USERNAME]
-    ``` 
-6. Create a Python virtual environment  
-7. Assign the created virtual environment as the kernel for Jupyter Notebook  
-8. Activate the virtual environment in your preferred terminal  
-9. Run `pip install -r requirements.txt` (or `requirements-lock.txt`)  
-10. Wait for the installation to complete  
-11. Click on **"Run All"** to execute all the notebook cells
+1. Clone this repositor;
+2. Navigate to the root folder;
+3. Option 1 (Kaggle Auth API):
+    1. Use ```kaggle auth login``` on your terminal;
+    2. Follow their steps;
+    3. Jump to 5.
+4. Option 2 (.env file auth configuration): 
+    1. Create an `.env` file in the root folder  
+    2. Get your **API token and username** from Kaggle  
+    3. Write the `.env` file like this:  
+        5.1.   Write the file like this:
+        ```
+        KAGGLE_KEY=[YOUR_API_TOKEN]
+        KAGGLE_USERNAME=[YOUR_USERNAME]
+        ``` 
+5. Create a Python virtual environment  
+6. Assign the created virtual environment as the kernel for Jupyter Notebook  
+7. Activate the virtual environment in your preferred terminal  
+8. Run `pip install -r requirements.txt` (or `requirements-lock.txt`)  
+9.  Wait for the installation to complete  
+10. Click on **"Run All"** to execute all the notebook cells
 
 ### Resources used during the assignment
 
