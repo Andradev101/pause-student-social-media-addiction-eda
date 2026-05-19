@@ -34,7 +34,7 @@ Dataset features:
  3. Jupyer notebook extensions are installed; and
  4. You have an account on [Kaggle](https://www.kaggle.com/)
 ### Step-by-step:
-1. Clone this repositor;
+1. Clone this repository;
 2. Navigate to the root folder;
 3. Option 1 (Kaggle Auth API):
     1. Use ```kaggle auth login``` on your terminal;
@@ -44,7 +44,6 @@ Dataset features:
     1. Create an `.env` file in the root folder  
     2. Get your **API token and username** from Kaggle  
     3. Write the `.env` file like this:  
-        5.1.   Write the file like this:
         ```
         KAGGLE_KEY=[YOUR_API_TOKEN]
         KAGGLE_USERNAME=[YOUR_USERNAME]
