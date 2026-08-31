@@ -48,7 +48,7 @@ Dataset features:
         KAGGLE_KEY=[YOUR_API_TOKEN]
         KAGGLE_USERNAME=[YOUR_USERNAME]
         ``` 
-5. Create a Python virtual environment  
+5. Create a Python virtual environment  (I have used python 3.13 throughout this notebook: python3.13 -m venv [YOUR VENV NAME])
 6. Assign the created virtual environment as the kernel for Jupyter Notebook  
 7. Activate the virtual environment in your preferred terminal  
 8. Run `pip install -r requirements.txt` (or `requirements-lock.txt`)  
